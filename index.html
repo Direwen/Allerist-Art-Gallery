@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Allerist</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/196/196290.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;700&family=Luxurious+Roman&family=Niconne&family=Prosto+One&family=Spirax&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive_css.css">
+    </head>
+
+    <body>
+
+        <div class="up_arrow_container">
+            <a href="#fnav_container">
+                <img src="img/icon_svg/chevron-up.svg" alt="">
+            </a>
+        </div>
+        
+        <!-- search bar -->
+        <section class="search_bar_container" id="searchBarContainer" >
+            <form action="POST">
+                <input type="search" name="searchbar" 
+                placeholder="&#128269; Search" id="searchBar"
+                autofocus>
+            </form>
+        </section>
+
+        <!-- first navbar -->
+        <section class="fnav__container" id="fnav_container">
+            <div class="language_indicator">
+                <img src="old_img/svg/globe.svg" alt="Globe" id="fnav_icon">
+                <span>Eng</span>
+            </div>
+
+            <div class="company_logo">
+                <img src="img/logo/allerist3.png" alt="Plantsy Logo">
+            </div>
+
+            <div class="ficons_container">
+                <ul>
+                    <li><a href="#" id="search_icon"><img src="old_img/svg/search.svg" alt="icon" id="fnav_icon"></a></li>
+                    <li><a href="sub_pages/shopping_cart.html"><img src="old_img/svg/shopping-cart.svg" alt="icon" id="fnav_icon"></a></li>
+                    <li><a href="sub_pages/log_in.html"><img src="old_img/svg/log-in.svg" alt="icon" id="fnav_icon"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- third navbar -->
+        <section class="tnav__container">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="old_img/svg/home_light.svg" alt="icon">
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="submenu_link">
+                        <img src="old_img/svg/camera_light.svg" alt="icon">
+                        <span>Gallery</span>
+
+                        <ul class="mobile_submenu">
+                            <li><a href="sub_pages/gallery.html#painterlyArts">Painterly</a></li>
+                            <li><a href="sub_pages/gallery.html#popArts">Pop Art</a></li>
+                            <li><a href="sub_pages/gallery.html#abstractArts">Abstract</a></li>
+                            <li><a href="sub_pages/gallery.html#surrealArts">Surrealism</a></li>
+                            <li><a href="sub_pages/gallery.html#impressionismArts">Impressionism</a></li>
+                            <li><a href="sub_pages/gallery.html#expressionismArts">Expressionism</a></li>
+                            <li><a href="sub_pages/gallery.html#realismArts">Realism</a></li>  
+                        </ul>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sub_pages/about.html">
+                        <img src="old_img/svg/alert-circle_light.svg" alt="icon">
+                        <span>About</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sub_pages/contact.html">
+                        <img src="old_img/svg/mail_light.svg" alt="icon">
+                        <span>Contact</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </section>
+
+        <!-- home page content -->
+        <section class="homepage__container">
+
+            <div class="welcome_bg">
+
+                <div class="snav__container">
+                    <!-- logo -->
+                    <div class="company_logo pc">
+                        <img src="img/logo/allerist3.png" alt="">
+                    </div>
+                    <!-- menu links -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li>
+                            <a href="sub_pages/gallery.html">Gallery +</a>
+                            <ul class="pc_submenu">
+                                <li><a href="sub_pages/gallery.html#painterlyArts">Painterly</a></li>
+                                <li><a href="sub_pages/gallery.html#popArts">Pop Art</a></li>
+                                <li><a href="sub_pages/gallery.html#abstractArts">Abstract</a></li>
+                                <li><a href="sub_pages/gallery.html#surrealArts">Surrealism</a></li>
+                                <li><a href="sub_pages/gallery.html#impressionismArts">Impressionism</a></li>
+                                <li><a href="sub_pages/gallery.html#expressionismArts">Expressionism</a></li>
+                                <li><a href="sub_pages/gallery.html#realismArts">Realism</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub_pages/about.html">About</a></li>
+                        <li><a href="sub_pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="welcome_container">
+                    <div class="welcome_text">
+                        <span>Welcome to Allerist Gallery</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tortor sit amet quam pellentesque consequat.</p>
+                        <a href="sub_pages/about.html">Read More</a>
+
+                        <img src="img/icon_svg/chevrons-down.svg" alt="down arrow" class="down_arrow" id="fnav_icon">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- toa means types_of_arts -->
+            <div class="types_of_arts_container">
+                <div class="toa_title">
+                    <span>Browse by Artstyles</span>
+                </div>
+
+                <div class="toa">
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Painterly Arts</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower, especially when one layer of paint needs to be allowed to dry before another is applied.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Pop Art</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Surrealism</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower, especially when one layer of paint needs to be allowed to dry before another is applied.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Abstract</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower, especially when one layer of paint needs to be allowed to dry before another is applied.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Impressionism</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower, especially when one layer of paint needs to be allowed to dry before another is applied.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Expressionism</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower, especially when one layer of paint needs to be allowed to dry before another is applied.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="artstyle_outerlayer">
+                        <div class="artstyle_innerlayer">
+                            <div class="as_front">
+                                <span>Realism</span>
+                                
+                            </div>
+                            <div class="as_back">
+                                <p>
+                                    "greater flexibility, richer and denser colour, the use of layers, and a wider range from light to dark". But the process is slower.
+                                </p>
+                                <a href="sub_pages/gallery.html">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bac means best_arts_container -->
+            <div class="best_arts_container">
+                <div class="bac_title">
+                    <p>Weekly Top Trending Arts!</p>
+                    <p>These won't last long</p>
+                </div>
+
+                <div class="top_picks_container">
+
+                    <a href="sub_pages/art_details.html" class="top_pick">
+                        <div class="tp_top">
+                            <img src="img/top_picks/tp1.webp" alt="Art">
+                        </div>
+                        <div class="tp_bottom">
+                            <p>Walking the Bypass</p>
+                            <p>Artist: John Santaro</p>
+                            <span>$1600</span>
+                        </div>
+                    </a>
+
+                    <a href="sub_pages/art_details.html" class="top_pick">
+                        <div class="tp_top">
+                            <img src="img/top_picks/tp2.jpg" alt="Art">
+                        </div>
+                        <div class="tp_bottom">
+                            <p>Dead Fish</p>
+                            <p>Artist: Peter</p>
+                            <span>$900</span>
+                        </div>
+                    </a>
+
+                    <a href="sub_pages/art_details.html" class="top_pick">
+                        <div class="tp_top">
+                            <img src="img/top_picks/tp3.jpg" alt="Art">
+                        </div>
+                        <div class="tp_bottom">
+                            <p>Icy Blue Abstract</p>
+                            <p>Artist: Larry Ney</p>
+                            <span>$300</span>
+                        </div>
+                    </a>
+
+                    <a href="sub_pages/art_details.html" class="top_pick">
+                        <div class="tp_top">
+                            <img src="img/top_picks/tp4.png" alt="Art">
+                        </div>
+                        <div class="tp_bottom">
+                            <p>Encounter</p>
+                            <p>Artist: Rudolf Kosow</p>
+                            <span>$6980</span>
+                        </div>
+                    </a>
+
+                    <a href="sub_pages/art_details.html" class="top_pick">
+                        <div class="tp_top">
+                            <img src="img/top_picks/tp5.jpg" alt="Art">
+                        </div>
+                        <div class="tp_bottom">
+                            <p>Mourning Light</p>
+                            <p>Artist: John Santaro</p>
+                            <span>$800</span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="artist_container">
+
+                <div class="artist_top">
+                    <span>
+                        The most trending painter RIght Now
+                    </span>
+                </div>
+
+                <div class="artist_bottom">
+                    <div class="artist_pic">
+                        <img src="img/background/artist.jpeg" alt="">
+                    </div>
+    
+                    <div class="artist_about">
+                        <p>Gerhard Richer</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis neque placeat, illum atque dicta libero.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>     
+                </div>
+                
+            </div>
+
+            <div class="upcoming_event">
+                <div class="upcoming_title">
+                    <p>Upcoming Exhibition</p>
+                </div>
+
+                <div class="upcoming_event_content">
+
+                    <div class="event_holder">
+                        <span>Tesfaye Urgessa</span>
+                    </div>
+
+                    <div class="event_details">
+                        <div class="uec">
+                            <span>from 1st&nbsp;Jan&nbsp;2023 to&nbsp;14th&nbsp;Jan&nbsp;2023</span>
+                            
+                            <a href="">About the Exhibition</a>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis eveniet asperiores fuga laborum.</p>
+                        </div>
+
+                        <img src="img/background/bg5.jpg" alt="">
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer__container">
+            <div class="upper_footer_container">
+                <div class="footer_menu">
+                    <span>Links</span>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_address">
+                    <span>Allerist Gallery</span>    
+                    <p>
+                        12 Noutrand Brook, NY&nbsp;1934<br>
+                        <a href="#">+9591421423</a><br>
+                        <a href="#">View Map</a>
+                    </p>
+                </div>
+                <div class="footer_subscribe">
+                    <span>Join mailing list</span>        
+                    <div>
+                        <form action="Post">
+                            <input type="text" id="sub_input" placeholder="Enter your Email">
+                            <input type="submit">
+                        </form>
+                        <div class="media_icons">
+                            <a href="#">
+                                <img src="old_img/icon2/001-facebook.png" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="old_img/icon2/002-instagram.png" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="old_img/icon2/003-twitter.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="lower_footer_container">
+                <span>Copyright&copy;2022 ALERRIST.</span>
+                <span>DIREWEN</span>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="js/assignment.js"></script>
+            
+    </body>
+</html>
